@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 CSV_PATH = Path(
-    r"C:\Development\Git\MGS3-PS2-Textures\u - dumped from substance\mgs3_ps2_substance_version_dates.csv"
+    r"C:\Development\Git\MGS3-PS2-Textures\u - dumped from Subsistence\mgs3_ps2_Subsistence_version_dates.csv"
 )
 
 MAX_WORKERS = 8
