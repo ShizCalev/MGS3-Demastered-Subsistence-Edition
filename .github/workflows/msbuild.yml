@@ -1,0 +1,127 @@
+name: CI Builds
+
+env:
+  CI: true
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: pwsh
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Enable long paths in Git
+      run: git config --system core.longpaths true
+
+    - name: Enable Win32 long paths at runtime
+      shell: pwsh
+      run: reg add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1 /f
+
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        fetch-depth: 0
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    # -------------------------
+    # Prepare output structure
+    # -------------------------
+    - name: Create dist folder structure
+      shell: pwsh
+      run: |
+        $baseTargets = @("dist", "dist_2x", "dist_4x")
+        $uiTargets   = @("dist_ui", "dist_2x_ui", "dist_4x_ui")
+
+        $baseSubdirs = @("textures", "plugins", "logs")
+        $uiSubdirs   = @("textures")
+
+        foreach ($t in $baseTargets) {
+          New-Item -ItemType Directory -Path $t -Force | Out-Null
+          foreach ($s in $baseSubdirs) {
+            New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
+          }
+        }
+
+        foreach ($t in $uiTargets) {
+          New-Item -ItemType Directory -Path $t -Force | Out-Null
+          foreach ($s in $uiSubdirs) {
+            New-Item -ItemType Directory -Path "$t/$s" -Force | Out-Null
+          }
+        }
+
+
+    # -------------------------
+    # Build
+    # -------------------------
+    - name: Build
+      run: msbuild "ASI Mod\${{ github.event.repository.name }}.sln" /m -t:rebuild -verbosity:minimal -property:Configuration=Release -property:Platform=x64  -property:PlatformToolset=v143
+    
+    - name: Copy ASI files into all dist folders
+      shell: pwsh
+      run: |
+        $targets = @("dist", "dist_2x", "dist_4x")
+
+        foreach ($t in $targets) {
+          Write-Host "Copying to $t"
+
+          Copy-Item "ASI Mod\x64\Release\${{ github.event.repository.name }}.asi" "$t/plugins/${{ github.event.repository.name }}.asi"
+          Copy-Item "ASI Mod\${{ github.event.repository.name }}.ini" "$t/plugins/${{ github.event.repository.name }}.ini"
+          Copy-Item README.md "$t/textures/${{ github.event.repository.name }}_README.md" -Force
+          Copy-Item README.md "$t/logs/${{ github.event.repository.name }}_Game.log" -Force
+          Copy-Item README.md "$t/logs/${{ github.event.repository.name }}_Launcher.log" -Force
+          Copy-Item LICENSE "$t/textures/${{ github.event.repository.name }}_LICENSE" -Force
+        }
+
+    # Build Dist Folders
+    - name: Build Dist Folders
+      run: |
+        $RepoRootDir = "${{ github.workspace }}"
+        $scriptPath  = Join-Path $RepoRootDir "Build_Dist_Folders.py"
+
+        if (-not (Test-Path $scriptPath)) {
+          Write-Error "Build_Dist_Folders.py not found at $scriptPath"
+          exit 1
+        }
+
+        Write-Host "Running Build_Dist_Folders.py..."
+        py $scriptPath
+
+    # Package everything
+    - name: Create Base release zip
+      working-directory: dist
+      run: 7z a -tzip "../MGS3-Demastered-Sub_Base_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
+
+    - name: Create 2x Upscaled release zip
+      working-directory: dist_2x
+      run: 7z a -tzip "../MGS3-Demastered-Sub_Base_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+
+    - name: Create 4x Upscaled release zip
+      working-directory: dist_4x
+      run: 7z a -tzip "../MGS3-Demastered-Sub_Base_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+
+
+    # Package everything
+    - name: Create Base release zip
+      working-directory: dist_ui
+      run: 7z a -tzip "../MGS3-Demastered-Sub_UI_ONLY_PS2_Resolution_v${{ steps.extract_version.outputs.version }}.zip" *
+
+    - name: Create 2x Upscaled release zip
+      working-directory: dist_2x_ui
+      run: 7z a -tzip "../MGS3-Demastered-Sub_UI_ONLY_2x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
+
+    - name: Create 4x Upscaled release zip
+      working-directory: dist_4x_ui
+      run: 7z a -tzip "../MGS3-Demastered-Sub_UI_ONLY_4x_AI_Upscaled_v${{ steps.extract_version.outputs.version }}.zip" *
