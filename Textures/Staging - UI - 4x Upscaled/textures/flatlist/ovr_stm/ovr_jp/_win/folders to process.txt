@@ -1,5 +1,0 @@
-C:\Development\Git\Afevis-MGS3-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Self Remastered\UI\Shared
-C:\Development\Git\Afevis-MGS3-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Self Remastered\UI\Japanese
-C:\Development\Git\Afevis-MGS3-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Shared
-C:\Development\Git\Afevis-MGS3-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared\UI\Japanese
-C:\Development\Git\Afevis-MGS3-Bugfix-Compilation\Texture Fixes\Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\UI
