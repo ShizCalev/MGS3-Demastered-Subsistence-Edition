@@ -2,5 +2,39 @@
 # These Self Remade textures had no matching file under PS2_TEXTURES_ROOT.
 # They were skipped and not processed in this run.
 
-0009bc34_b930b4499997afc4e26e408ea169f9c7.tga
-0051b133.tga
+004f81ad.png
+004fa1ad.png
+0056594d.png
+0056694d.png
+0056794d.png
+00581d5d.png
+00582d5d.png
+00583d5d.png
+005ce186.png
+005cf186.png
+005d0186.png
+005e568e.png
+005e668e.png
+005e768e.png
+0063a8f6.png
+0063b8f6.png
+006adf8b.png
+006aef8b.png
+006aff8b.png
+0075dece.png
+0075eece.png
+0075fece.png
+007b8516.png
+007b9516.png
+007ba516.png
+00812743.png
+00813743.png
+00814743.png
+008a85bb.png
+008aa5bb.png
+00ede1ab.png
+00edf1ab.png
+00ee01ab.png
+00fb98ac.png
+00fba8ac.png
+00fbb8ac.png

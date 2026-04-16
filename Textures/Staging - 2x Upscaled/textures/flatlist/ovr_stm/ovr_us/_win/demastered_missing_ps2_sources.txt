@@ -1,0 +1,12 @@
+# Demastered run: missing PS2 source by stem
+# These Self Remade textures had no matching file under PS2_TEXTURES_ROOT.
+# They were skipped and not processed in this run.
+
+armory_kan01.bmp.png
+armory_kan01.bmp_1926b58465933136b8b8e9a28ffb67c1.png
+armory_kan02.bmp.png
+armory_kan02.bmp_f2036919f3c1c4eaeaee951679a30cc9.png
+armory_kan03.bmp.png
+armory_nosmk_alp_ovl.bmp.png
+armory_nosmk_alp_ovl.bmp_424696b4a9db087afd9d2be2112e6de5.png
+s222a_america_01.bmp.png
