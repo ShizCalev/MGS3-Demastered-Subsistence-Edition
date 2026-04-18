@@ -6,8 +6,8 @@ if defined CI (
     goto :EOF
 )
 
-set "DEST=G:\Steam\steamapps\common\MGS2\plugins\MGS2-Demastered-Substance-Edition.asi"
-set "SRC=C:\Development\Git\MGS2-Demastered-Substance-Edition\ASI Mod\x64\Release\MGS2-Demastered-Substance-Edition.asi"
+set "DEST=G:\Steam\steamapps\common\MGS3\plugins\MGS3-Demastered-Subsistence-Edition.asi"
+set "SRC=C:\Development\Git\MGS3-Demastered-Subsistence-Edition\ASI Mod\x64\Release\MGS3-Demastered-Subsistence-Edition.asi"
 
 if exist "%DEST%" (
     echo Found existing ASI, updating...

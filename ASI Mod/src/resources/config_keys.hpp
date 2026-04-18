@@ -10,14 +10,14 @@ namespace ConfigKeys
    
     // Internal
     constexpr const char* CheckForUpdates_Section = "Update Notifications";
-    constexpr const char* CheckForUpdates_Setting = "Check For MGS2 Demastered Substance Edition Updates";
+    constexpr const char* CheckForUpdates_Setting = "Check For MGS3 Demastered Subsistence Edition Updates";
     constexpr const char* CheckForUpdates_Help = "";
-    constexpr const char* CheckForUpdates_Tooltip = "If the mod should should notify you when launching the game if a new MGS2 Demastered Substance Edition update is available for download.";
+    constexpr const char* CheckForUpdates_Tooltip = "If the mod should should notify you when launching the game if a new MGS3 Demastered Subsistence Edition update is available for download.";
 
     constexpr const char* UpdateConsoleNotifications_Section = "Update Notifications";
     constexpr const char* UpdateConsoleNotifications_Setting = "In-Game Update Notifications";
     constexpr const char* UpdateConsoleNotifications_Help = "";
-    constexpr const char* UpdateConsoleNotifications_Tooltip = "If you want a visible notification when starting the game if an MGS2 Demastered Substance Edition update is available.\n"
+    constexpr const char* UpdateConsoleNotifications_Tooltip = "If you want a visible notification when starting the game if an MGS3 Demastered Subsistence Edition update is available.\n"
                                                                "\n"
                                                                "Notifications will still be printed to the log file while disabled.";
 

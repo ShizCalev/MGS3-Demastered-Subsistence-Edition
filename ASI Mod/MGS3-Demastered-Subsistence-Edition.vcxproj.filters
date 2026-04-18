@@ -57,7 +57,7 @@
     <None Include="README.md">
       <Filter>Resources</Filter>
     </None>
-    <None Include="MGS2-Demastered-Substance-Edition.ini">
+    <None Include="MGS3-Demastered-Subsistence-Edition.ini">
       <Filter>Resources</Filter>
     </None>
   </ItemGroup>

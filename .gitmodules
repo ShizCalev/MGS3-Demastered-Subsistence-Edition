@@ -1,3 +1,9 @@
 [submodule "external/MGS3-PS2-Textures"]
 	path = external/MGS3-PS2-Textures
 	url = https://github.com/dotlessone/MGS3-PS2-Textures
+[submodule "external/inipp"]
+	path = external/inipp
+	url = https://github.com/mcmtroffaes/inipp
+[submodule "external/spdlog"]
+	path = external/spdlog
+	url = https://github.com/gabime/spdlog

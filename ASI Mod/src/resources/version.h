@@ -2,13 +2,13 @@
 #pragma once
 
 // Core name & version
-#define FIX_NAME "MGS2-Demastered-Substance-Edition"
-#define PRIMARY_REPO_URL "https://github.com/ShizCalev/MGS2-Demastered-Substance-Edition"
-#define FALLBACK_REPO_URL "https://gitlab.com/ShizCalev/MGS2-Demastered-Substance-Edition"
+#define FIX_NAME "MGS3-Demastered-Subsistence-Edition"
+#define PRIMARY_REPO_URL "https://github.com/ShizCalev/MGS3-Demastered-Subsistence-Edition"
+#define FALLBACK_REPO_URL "https://gitlab.com/ShizCalev/MGS3-Demastered-Subsistence-Edition"
 
 #define VERSION_MAJOR 1
 #define VERSION_MINOR 0
-#define VERSION_PATCH 5
+#define VERSION_PATCH 0
 
 #define STRINGIFY_HELPER(x) #x
 #define STRINGIFY(x) STRINGIFY_HELPER(x)

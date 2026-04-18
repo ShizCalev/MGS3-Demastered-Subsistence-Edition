@@ -48,7 +48,7 @@ static bool DetectGame()
         }
     }
 
-    spdlog::error("Failed to detect supported game, {} isn't supported by MGS2-Demastered-Substance-Edition", sExeName.c_str());
+    spdlog::error("Failed to detect supported game, {} isn't supported by MGS3-Demastered-Subsistence-Edition", sExeName.c_str());
     FreeLibraryAndExitThread(baseModule, 1);
 }
 

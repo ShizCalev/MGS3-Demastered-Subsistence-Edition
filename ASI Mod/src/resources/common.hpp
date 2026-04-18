@@ -33,7 +33,7 @@ enum MgsGame : std::uint8_t
 inline MgsGame eGameType = UNKNOWN;
 
 inline const std::map<MgsGame, GameInfo> kGames = {
-    {MGS2, {"Metal Gear Solid 2 MC", "METAL GEAR SOLID2.exe", 2131640}},
-    //{MGS3, {"Metal Gear Solid 3 MC", "METAL GEAR SOLID3.exe", 2131650}},
+    //{MGS2, {"Metal Gear Solid 2 MC", "METAL GEAR SOLID2.exe", 2131640}},
+    {MGS3, {"Metal Gear Solid 3 MC", "METAL GEAR SOLID3.exe", 2131650}},
     //{MG, {"Metal Gear / Metal Gear 2 (MSX)", "METAL GEAR.exe", 2131680}},
 };

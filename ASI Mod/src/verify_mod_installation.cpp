@@ -7,6 +7,7 @@
 #include "logging.hpp"
 #include "helper.hpp"
 
+/*
 constexpr CtxrHashEntry kFirstVersionCorruptUiTextures[] =
 {
     {"00232162", "f6c2e6b1a58c668ca5f1aab021a4e047f1d5641d" },
@@ -44,14 +45,16 @@ constexpr CtxrHashEntry kFirstVersionCorruptUiTextures[] =
     {"museum_j_alp_ovl.bmp", "aabb789f382d7a800dbe3d4d87fd68140e518d2e" },
     {"00238df3", "3e0d8455ca8f41a6a3bfffaffd9bfb0dac64fa96" }, //always have the smallest file at the end to minimize time spent sha1 checking
 };
+*/
 
 void VerifyInstallation::Check()
 {
-    if (!(eGameType & MGS2))
+    if (!(eGameType & MGS3))
     {
         return;
     }
 
+    /*
     {   // v1.0.1 -> v1.0.2 corrupt UI texture cleanup
         static_assert(std::size(kFirstVersionCorruptUiTextures) == 34, "kFirstVersionCorruptUiTextures count changed");
 
@@ -59,4 +62,6 @@ void VerifyInstallation::Check()
 
         Util::RemoveMatchedCtxrFilesWithSentinelLast(baseDir, std::span<const CtxrHashEntry>(kFirstVersionCorruptUiTextures), "corrupt UI textures from v1.0.1 -> v1.0.2 update");
     }
+
+    */
 }
