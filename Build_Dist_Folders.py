@@ -36,10 +36,10 @@ UNKNOWN_PREFIXES_SEEN: set[str] = set()
 VORTEX_MODS_DIR = Path(r"C:\Users\cmkoo\OneDrive\Vortex\metalgearsolid3mc\mods")
 
 LOCAL_SYNC_PREFIXES: dict[str, str] = {
-    #"dist": "MGS3 PS2 Demaster (Sub) - Base - PS2 Resolution",
+    "dist": "MGS3 PS2 Demaster (Sub) - Base - PS2 Resolution",
     #"dist_2x": "MGS3 PS2 Demaster (Sub) - Base - 2x AI Upscaled",
-    #"dist_4x": "MGS3 PS2 Demaster (Sub) - Base - 4x AI Upscaled",
-    #"dist_ui": "MGS3 PS2 Demaster (Sub) - UI Only - PS2 Resolution",
+    "dist_4x": "MGS3 PS2 Demaster (Sub) - Base - 4x AI Upscaled",
+    "dist_ui": "MGS3 PS2 Demaster (Sub) - UI Only - PS2 Resolution",
     #"dist_4x_ui": "MGS3 PS2 Demaster (Sub) - UI Only - 2x AI Upscaled"
     #"dist_4x_ui": "MGS3 PS2 Demaster (Sub) - UI Only - 4x AI Upscaled"
 }
