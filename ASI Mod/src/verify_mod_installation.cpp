@@ -100,13 +100,13 @@ void VerifyInstallation::Check()
         {
             if (Util::IsSteamOS())
             {
-                spdlog::info("Opening webpages is not supported on SteamOS. Please visit the following URL on a different device to download the base package: https://www.nexusmods.com/metalgearsolid3mc/mods/189?tab=files");
+                spdlog::info("Opening webpages is not supported on SteamOS. Please visit the following URL on a different device to download the base package: https://www.nexusmods.com/metalgearsolid3mc/mods/190");
                 return;
             }
             ShellExecuteA(
                 nullptr,
                 "open",
-                "https://www.nexusmods.com/metalgearsolid3mc/mods/189?tab=files",
+                "https://www.nexusmods.com/metalgearsolid3mc/mods/190",
                 nullptr,
                 nullptr,
                 SW_SHOWNORMAL
@@ -164,32 +164,28 @@ void VerifyInstallation::Check()
     // MGS3: Verify Afevis Bugfix Collection (base) installation
     // ------------------------------------------------------
     spdlog::info("Verifying MGS3 PS2 Demaster base installation...");
-    if (!MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT.exists || !(hashEquals(MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT, MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1)
-                                                                                || hashEquals(MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT, MGS3_Demaster_2x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1)
-                                                                                || hashEquals(MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT, MGS3_Demaster_4x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1)))
+    if (!MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT.exists)
     {
-        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) Missing ! -------------------");
-        spdlog::warn("MGS3 PS2 Demaster installation issue detected, base package is NOT found.");
-        spdlog::warn("This can occur if Steam has verified integrity and damaged your mod files, or if the Base Bugfix Compilation zip wasn't installed.");
-        spdlog::warn("The base package is required for proper functionality, even when 2x & 4x packages are installed.");
-        spdlog::warn("Please install the MGS3 PS2 Demaster -> Base <- package to ensure proper game functionality.");
-        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/189?tab=files to download the base package.");
-        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Community-Bugfix-Compilation/releases");
-        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) Missing ! -------------------");
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) - Missing Files ! -------------------");
+        spdlog::warn("MGS3 PS2 Demaster installation issue detected, Demastered OVR_STM texture are missing!");
+        spdlog::warn("This can occur if Steam has verified integrity and overwrote your mod files, or if your texture folder was partially deleted at some point.");
+        spdlog::warn("Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.");
+        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/190 to download the base package.");
+        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Demastered-Subsistence-Edition/releases");
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) - Missing Files ! -------------------");
 
         if (int result = MessageBoxA(
             nullptr,
-            "MGS3 PS2 Demaster installation issue detected, base package is NOT found.\n"
+            "MGS3 PS2 Demaster installation issue detected, Demastered OVR_STM texture files not found.\n"
             "\n"
-            "This can occur if Steam has verified integrity and damaged your mod files, or if the Base Bugfix Compilation zip wasn't installed.\n"
+            "This can occur if Steam has verified integrity and overwrote your mod files, or if your texture folder was partially deleted at some point.\n"
             "\n"
-            "The base package is required for proper functionality, even when 2x & 4x packages are installed.\n"
-            "Please install the MGS3 PS2 Demaster -> Base <- package to ensure proper game functionality.\n"
+            "Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.\n"
             "\n"
-            "Would you like to open the Community Bugfix Nexus download page now to download the base package?\n"
+            "Would you like to open the MGS3 PS2 Demastered Nexus download page now to download the base package?\n"
             "\n"
             "(GitHub releases link also available on the Nexus page.)",
-            "MGS3 PS2 Demaster (Base) Missing",
+            "MGS3 PS2 Demaster (Base) - Missing Files",
             MB_ICONWARNING | MB_YESNO);
         result == IDYES)
         {
@@ -198,8 +194,48 @@ void VerifyInstallation::Check()
 
         return;
     }
+    
+    if (!(hashEquals(MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT, MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1)
+              || hashEquals(MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT, MGS3_Demaster_2x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1)
+              || hashEquals(MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_RESULT, MGS3_Demaster_4x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1)))
+    {
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) - Mod Integrity Check Failed! -------------------");
+        spdlog::warn("MGS3 PS2 Demaster installation issue detected, incorrect hash found for Demastered ovr_stm/_win texture files.");
+        spdlog::warn("This can occur if Steam has verified integrity and overwrote your mod files, or if the MGS3 Community Bugfix Compilation mod was installed/loaded AFTER the PS2 Demaster mod.");
+        spdlog::warn("Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.");
+        spdlog::warn("Or if using a mod manager, ensure the MGS3 PS2 Demaster Base mod is loaded AFTER the Community Bugfix Compilation mod.");
+        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/190 to download the base package.");
+        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Demastered-Subsistence-Edition/releases");
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) - Mod Integrity Check Failed ! -------------------");
+
+        if (int result = MessageBoxA(
+            nullptr,
+            "MGS3 PS2 Demaster installation issue detected, incorrect hash found for Demastered ovr_stm/_win texture files.\n"
+            "\n"
+            "This can occur if Steam has verified integrity and damaged your mod files, or if the MGS3 Community Bugfix Compilation mod was installed/loaded AFTER the PS2 Demaster mod.\n"
+            "\n"
+            "Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.\n"
+            "Or if using a mod manager, ensure the MGS3 PS2 Demaster Base mod is loaded AFTER the Community Bugfix Compilation mod.\n"
+            "\n"
+            "Would you like to open the MGS3 PS2 Demastered Nexus download page now to download the base package?\n"
+            "\n"
+            "(GitHub releases link also available on the Nexus page.)",
+            "MGS3 PS2 Demaster (Base) - Mod Integrity Check Failed",
+            MB_ICONWARNING | MB_YESNO);
+        result == IDYES)
+        {
+            openPS2DemasterNexusPage();
+        }
+
+        return;
+    }
+    else
+    {
+        spdlog::info("Correct hash found for ovr_stm/_win/sok_coat_lupe_himo.bmp.ctxr, base installation is properly installed.");
+    }
 
 
+    spdlog::info("Checking for presence of OVR_JP demaster files...");
     // ------------------------------------------------------
     // MGS3: Verify Afevis Bugfix Collection (base - jp dlc)
     // ------------------------------------------------------
@@ -207,30 +243,31 @@ void VerifyInstallation::Check()
     {
         spdlog::info("MGS3 PS2 Demaster base installation JPN DLC not found, DLC was likely uninstalled after installation. Skipping hash check...");
     }
-    else if (!(hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
-               || hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_2x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
-               || hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_4x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)))
-    {
-        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - JPN DLC) Missing ! -------------------");
-        spdlog::warn("MGS3 PS2 Demaster installation issue detected, base installation (JPN DLC) fixes are missing.");
-        spdlog::warn("This can occur if Steam has verified integrity and damaged your mod files, or if you have reinstalled the Japanese Language DLC after installing the MGS3 PS2 Demaster.");
-        spdlog::warn("Please reinstall the MGS3 PS2 Demaster -> Base <- package to ensure proper game functionality.");
-        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/189?tab=files to download the base package.");
-        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Community-Bugfix-Compilation/releases");
-        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - JPN DLC) Missing ! -------------------");
+    if (!(hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
+        || hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_2x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
+        || hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_4x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)))
+        {
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - OVR_JP) - Mod Integrity Check Failed ! -------------------");
+        spdlog::warn("MGS3 PS2 Demaster installation issue detected, base installation (OVR_JP) fixes are missing.");
+        spdlog::warn("This can occur if Steam has verified integrity and overwrote your mod files, or if the MGS3 Community Bugfix Compilation mod was installed/loaded AFTER the PS2 Demaster mod.");
+        spdlog::warn("Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.");
+        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/190 to download the base package.");
+        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Demastered-Subsistence-Edition/releases");
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - OVR_JP) - Mod Integrity Check Failed ! -------------------");
 
         if (int result = MessageBoxA(
             nullptr,
-            "MGS3 PS2 Demaster installation issue detected, base installation (JPN DLC) fixes are missing.\n"
+            "MGS3 PS2 Demaster installation issue detected, base installation (OVR_JP) fixes are missing.\n"
             "\n"
-            "This can occur if Steam has verified integrity and damaged your mod files, or if you have reinstalled the Japanese Language DLC after installing the MGS3 PS2 Demaster.\n"
+            "This can occur if Steam has verified integrity and damaged your mod files, or if the MGS3 Community Bugfix Compilation mod was installed/loaded AFTER the PS2 Demaster mod.\n"
             "\n"
-            "Please reinstall the MGS3 PS2 Demaster -> Base <- package to ensure proper game functionality.\n"
+            "Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.\n"
+            "Or if using a mod manager, ensure the MGS3 PS2 Demaster Base mod is loaded AFTER the Community Bugfix Compilation mod.\n"
             "\n"
-            "Would you like to open the Community Bugfix Nexus download page now to download the base package?\n"
+            "Would you like to open the MGS3 PS2 Demastered Nexus download page now to download the base package?\n"
             "\n"
             "(GitHub releases link also available on the Nexus page.)",
-            "MGS3 PS2 Demaster (Base - JPN DLC) Missing",
+            "MGS3 PS2 Demaster (Base - OVR_JP) - Mod Integrity Check Failed",
             MB_ICONWARNING | MB_YESNO);
         result == IDYES)
         {
@@ -239,38 +276,42 @@ void VerifyInstallation::Check()
 
         return;
     }
-
-        // ------------------------------------------------------
-    // MGS3: Verify Afevis Bugfix Collection (base - jp dlc)
-    // ------------------------------------------------------
-    if (!MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_RESULT.exists)
+    else
     {
-        spdlog::info("MGS3 PS2 Demaster base installation JPN DLC not found, DLC was likely uninstalled after installation. Skipping hash check...");
+        spdlog::info("Correct hash found for ovr_stm/ovr_jp/_win/sna_suit_tears_sub_ovl_alp.bmp.ctxr, base installation (OVR_JP) is properly installed.");
     }
-    else if (!(hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
+    
+
+    spdlog::info("Checking for presence of OVR_US demaster files...");
+    // ------------------------------------------------------
+    // MGS3: Verify Afevis Bugfix Collection (base - OVR_US)
+    // ------------------------------------------------------
+    if (!MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_RESULT.exists || 
+            !(hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
                || hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_2x_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)
                || hashEquals(MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_RESULT, MGS3_Demaster_4x_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1)))
     {
-        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base) Missing ! -------------------");
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - OVR_US) - Mod Integrity Check Failed ! -------------------");
         spdlog::warn("MGS3 PS2 Demaster installation issue detected, base installation fixes are missing.");
         spdlog::warn("This can occur if Steam has verified integrity and damaged your mod files, or if you have reinstalled the Japanese Language DLC after installing the MGS3 PS2 Demaster.");
         spdlog::warn("Please reinstall the MGS3 PS2 Demaster -> Base <- package to ensure proper game functionality.");
-        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/189?tab=files to download the base package.");
-        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Community-Bugfix-Compilation/releases");
-        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - JPN DLC) Missing ! -------------------");
+        spdlog::warn("Please visit our Nexus page at: https://www.nexusmods.com/metalgearsolid3mc/mods/190 to download the base package.");
+        spdlog::warn("Or our GitHub releases page at: https://github.com/ShizCalev/MGS3-Demastered-Subsistence-Edition/releases");
+        spdlog::warn("------------------- ! MGS3 PS2 Demaster (Base - OVR_US) - Mod Integrity Check Failed ! -------------------");
 
         if (int result = MessageBoxA(
             nullptr,
-            "MGS3 PS2 Demaster installation issue detected, base installation (JPN DLC) fixes are missing.\n"
+            "MGS3 PS2 Demaster installation issue detected, base installation (OVR_US) files are missing.\n"
             "\n"
-            "This can occur if Steam has verified integrity and damaged your mod files, or if you have reinstalled the Japanese Language DLC after installing the MGS3 PS2 Demaster.\n"
+            "This can occur if Steam has verified integrity and damaged your mod files, or if the MGS3 Community Bugfix Compilation mod was installed/loaded AFTER the PS2 Demaster mod.\n"
             "\n"
-            "Please reinstall the MGS3 PS2 Demaster -> Base <- package to ensure proper game functionality.\n"
+            "Please reinstall the MGS3 PS2 Demaster Base mod to ensure proper game functionality.\n"
+            "Or if using a mod manager, ensure the MGS3 PS2 Demaster Base mod is loaded AFTER the Community Bugfix Compilation mod.\n"
             "\n"
-            "Would you like to open the Community Bugfix Nexus download page now to download the base package?\n"
+            "Would you like to open the MGS3 PS2 Demastered Nexus download page now to download the base package?\n"
             "\n"
             "(GitHub releases link also available on the Nexus page.)",
-            "MGS3 PS2 Demaster (Base - JPN DLC) Missing",
+            "MGS3 PS2 Demaster (Base - OVR_US) - Mod Integrity Check Failed",
             MB_ICONWARNING | MB_YESNO);
         result == IDYES)
         {
@@ -278,6 +319,10 @@ void VerifyInstallation::Check()
         }
 
         return;
+    }
+    else
+    {
+        spdlog::info("Correct hash found for ovr_stm/ovr_us/_win/sna_suit_tears_sub_ovl_alp.bmp.ctxr, base installation (OVR_US) is properly installed.");
     }
 
 }
