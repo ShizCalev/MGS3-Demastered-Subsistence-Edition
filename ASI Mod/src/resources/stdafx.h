@@ -26,3 +26,4 @@
 
 #include <future>
 #include <span>
+#include <spdlog/spdlog.h>
