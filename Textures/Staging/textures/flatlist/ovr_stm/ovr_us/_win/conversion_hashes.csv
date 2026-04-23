@@ -37,7 +37,7 @@ sna_flirt_tiger.bmp,0ffc21c9c48736e0cc080f1d693c6225fa4ef72d,23e6ab7d2676dbd4d96
 sna_foot_naked_flirt.bmp,5006474baef90898cfd2ebc0b777d0c24e06df5b,a703fd6f198d4b12cc68b1a9de363fe00df894c6,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
 sna_foot_naked_tor.bmp,be19cc1085727e506221a38db3444ae298f1cc4b,f52ea3831ba657b9df67dbf002c8235cd00df531,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
 sna_foot_naked_tor.bmp_73f755c5eb2ba5efb9fbd155062db075,907381568422545eba7d7e17406fd02f0bc4a9e9,df3c8748ffea195745cd52f4c7abd2814e6236f0,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_hair_back_ovl_alp.bmp,fdd43e61092af62569a6d8e33ff69ad9f6915cd6,956ea2e687e9fbd48e1e70c603a21d7bf71ae8cd,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,false,false,0,none,false,2
+sna_hair_back_ovl_alp.bmp,f5f045fd35593c0ecdc71dcdcc12ef2968a0292c,fca16ce7c06da586c24b9f2de653912aa69857f1,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,false,false,0,none,false,2
 sna_suit_tears.bmp,c53172fad4a3a642e20323950b2550ca610e7518,bef6778f4248cc891efccf60827c4f63fe7d0761,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
 sna_suit_tears_sub_ovl_alp.bmp,5f06c60d4697105ce00b34ac334d00b299af2000,cfa3ad1c765602f7b0a976ecb6f116c6ce8292be,false,ps2 textures\HAS ALPHA\same sha1\no_mip_fixes,false,false,0,none,true,2
 sna_tears_ovl_alp.bmp,29c50f8b484d3cb8dbd68874e06b6977b2322464,1aa5ccb15feda1b78c19910dbe3472c68fd545fa,true,ps2 textures\HAS ALPHA\same sha1,false,false,0,none,false,2
