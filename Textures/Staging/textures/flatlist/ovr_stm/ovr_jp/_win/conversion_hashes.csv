@@ -1,49 +1,48 @@
-filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted,non_upscaled_version
-e02_1.bmp,4bfcfe998231f52f7e9ecf7b2c48640eee648e9c,9c9c5bbf1880fd9b18bf5d480661855cd1705d1e,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-e02_2.bmp_75c18656e1070488b65f4ef3c5459c6a,189185f56325a8844fad725f83aeeb86f556efdd,e28fe32ca8acb27075aea30714f1eb7227fc5d88,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-e02_3.bmp_9f9413fdf4806383d89d42846a722a3f,866fdd8fdd5c2d544245ec949e4aea90c66338cc,e595548709a4afbb3a4c7bd7998875fa47d2e5e1,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-e02_4.bmp_e98df2b1939851f47c8a6c28ea1d4cda,9756c3ef3f0c2473cb005f6c3d52776e4cf0ec13,f847dfedf0e2fa648d8154fb3105d14a230a0b42,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-e04_1.bmp,976adf7982c63665690ca87a6a25cd8a33928470,bbd9a08dfcb835846c2c30dba23f44d166b8be7b,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-e04_2.bmp_04dda450a93965ec055c9b3e101e099b,c174424bd9dc9a34b4de012e8560bf96cd2cbb01,4a2ec8a375223ba0727cc542748bc09876409b1b,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-e04_3.bmp_6e40581365c7129ba9808c175223db1c,24508e433e2cf881d339cc51bea41d62269d2975,420c0d9b46b55c5329f47866a31b09cf6fdf53aa,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-e04_4.bmp_8c6cd8cff37073ad12c3337cfc6743c9,1960c5da9c1b74a201315dbfabfd80fbbef1310f,fa5d40a3e9e5048386eb0d6ab65e448340daf282,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-gunship_body.bmp,82ca8e6196af95b0ba37cb42dc943e9f132a3524,cd9fdd955745143af5d40895723394ea4d53d88d,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Dont Upscale,true,false,0,none,false,2
-h_bottle_ovl_alp.bmp,54a14b6f819d2d546ffdb48fc60541f0384225d2,146ded698e9161eb45342f8b2dc40c1f85ae6f43,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,2
-j04_1.bmp,b72ab1448c745550c50cf9a18e201406150ea6be,19d98e556903bcd1bf995a3232fc3811cfc4e4cf,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j04_2.bmp,c98860aeb94b24e001e36d891a98a6dacff11a6c,c1338bdd2fa416394c852675a149ec5ca015ead4,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j04_3.bmp,3c9d66ce7ea23bdd33d7248e07d18d254d204e9d,bc20b853a3ae940b1f4068577f2647315325c929,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j04_4.bmp,bf3ffe188a3a00f1d8047877d35cab7a404d2437,c62a70e37772beaf33156f58ad419892456fb28d,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j06_1.bmp,2e23cff9cbe3279a1a978ce633e8980f28190929,71397690dde4c8140f38ad60df28a3788d32dffb,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j06_2.bmp,852bcbcf1003675e1d5c4ad967073c0eb1d65155,a0d6ea1a0f5d1498eca3ba1ba70dcd6cc5e4eee3,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j06_3.bmp,0879b4e1db97b4a4c9ad318e12e01f7f437466e1,d93cb3b76b4f3e84e52a6214b8d58a9ce4a8a065,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j06_4.bmp,3cd6b8e340a4aa8484634c82a342a6cdcf398f83,5ed4d3039f29f4290ee71da35f428ade187ae38d,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j07_1.bmp,1f98e7146465283944906835e08d589793adbf5e,3a55449869d4d9384e890210de64c5e9d99d2835,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j07_2.bmp,897403fe69a8e149a262eb5a9b1f359e971c1ce8,5393cd06c2f22af7da3bc4c8d19e7474dcea7d45,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j07_3.bmp,7435b8f82c52eed83b96b939d648ce09818c0dcc,e09ff247e11e332031169b50d640dc32b418df0a,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j07_4.bmp,63f7f8a0cd73c2239ae87c2c2cdf0bd659fc3653,3fe4867bb872f5821981533c69c226c3e9de68e1,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j09_1.bmp,3c5c848ae055d2a7a433b591783be806f7fc539b,014bb42fad3d1a11f3858dd280802cddaf8273ed,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j09_2.bmp,8a9dfb980a488c20fbaba80ec5d76c0ef7b30a04,a7fc314e65d1de3468f8b473e4a1c6f3115e3054,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j09_3.bmp,4757d6b7302ebcf378b9db27fb0c161162c37e17,f827e1902ae9ed9330a9883aa2d5abb25866511d,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j09_4.bmp,be48b6da7624bd011f94b61cc314d1a13dbab626,c225cb99e5b2a37466821cb0f6a4df53daa19456,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-j10_1.bmp,9da4a802ccd31c402cbc20d84fcef6498ffec644,d08ac93445574cac6df43a2981b2034a7d119c79,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-j10_2.bmp,b4bbf4c6e340212004b0e1fd7f099fc826866f50,3d2a367b27c75a35785fd401fd4f300f4f28dd1d,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-j10_3.bmp,24150af6624480ac2dbd9f066ea97d4cd204772c,6361a7eb07142f3ad5b92f7c224f17e6547a3c85,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-j10_4.bmp,d19a751ba10bb1a16f8a7a30c1f6fd9e0568dc94,7ec3c74583c6b443133defc9e28136dec0072231,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,2
-s112a_cell_floor_01_alp_ovl.bmp,5c09fbb4666ec302a73e827539ebeac11ec3aaee,c8d4a6c215652ee412b60fe892bbc41377c951c7,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,2
-s122a_fence_alp_ovl_01.bmp,52a528a4e9771502d0b3a2f14951dbbbeb6e0e99,fd37eec05956879b1e29a5f9d8c8b6f7e5ac8ae5,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,2
-s171a_mo_fence_alp_ovl_rep_01.bmp,8bc70f0933355a78a60d68241da9c22f57aa38d9,384f9dc77390a11f2670bf439c3d25367a23d0fa,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,2
-s171a_mogi_fence_alp_ovl_rep_01.bmp,33ea2b0d64b9c8f051237db5efc44bf38d0d9e7a,454bf84f13e8e4d59a3ef981a23c327839fa3484,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,2
-sga_cigar01_brake.bmp,cf2138bc00844ee5563ff03b78cea2c6f349e373,96ab8eca779dffcca8f8b03dd3c9177e6e3a6777,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sga_cigar_origin.bmp,3b2e8eab4c27d80d733636f0cddd524f5a07b21c,38ad7c24f113b613fa0cc3ae0f43cfce1615754f,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_face_cell_hi.bmp,50b81d4e7d9c9cc2317a292843c949e3b5937f67,d369bc9a3f822674b7bd471df21de42b4e76b1dc,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_face_dam_eye_ovl_alp.bmp,45c243774ee6203735eebd3649cc9d67a100ef1f,2ab380bfdaf4f8d35c8b97543e03601e3192bf57,true,ps2 textures\HAS ALPHA,false,false,0,none,false,2
-sna_face_ed_def.bmp,588cc45e1e856ec7e1648c6ef25aec28faa96ca2,87fea88d2b02ee84e27abc31b6fd44463fca4c47,true,ps2 textures\OPAQUE,true,false,0,none,false,2
-sna_face_vr_sta_ovl_alp.bmp,79c085e141fd25753e99ce80364df0dc434c286e,c2695dcfbaacfce14a5a627ad4e82ad82fa9a1ac,true,ps2 textures\HAS ALPHA,false,false,0,none,false,2
-sna_flirt_tiger.bmp,0ffc21c9c48736e0cc080f1d693c6225fa4ef72d,23e6ab7d2676dbd4d969df9f240f5ce1ab32613e,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_foot_naked_flirt.bmp,5006474baef90898cfd2ebc0b777d0c24e06df5b,a703fd6f198d4b12cc68b1a9de363fe00df894c6,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_foot_naked_tor.bmp,be19cc1085727e506221a38db3444ae298f1cc4b,f52ea3831ba657b9df67dbf002c8235cd00df531,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_foot_naked_tor.bmp_73f755c5eb2ba5efb9fbd155062db075,907381568422545eba7d7e17406fd02f0bc4a9e9,df3c8748ffea195745cd52f4c7abd2814e6236f0,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_hair_back_ovl_alp.bmp,f5f045fd35593c0ecdc71dcdcc12ef2968a0292c,aa668cdbd482420b4c13772dbd6bd5696b46a351,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,false,false,0,none,false,2
-sna_suit_tears.bmp,c53172fad4a3a642e20323950b2550ca610e7518,bef6778f4248cc891efccf60827c4f63fe7d0761,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,2
-sna_suit_tears_sub_ovl_alp.bmp,5f06c60d4697105ce00b34ac334d00b299af2000,cfa3ad1c765602f7b0a976ecb6f116c6ce8292be,false,ps2 textures\HAS ALPHA\same sha1\no_mip_fixes,false,false,0,none,true,2
-sna_tears_ovl_alp.bmp,29c50f8b484d3cb8dbd68874e06b6977b2322464,1aa5ccb15feda1b78c19910dbe3472c68fd545fa,true,ps2 textures\HAS ALPHA\same sha1,false,false,0,none,false,2
+filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted,non_upscaled_version,npot_resized
+e02_1.bmp,4bfcfe998231f52f7e9ecf7b2c48640eee648e9c,22889b51cc50d4173a7d0fb4b30b7f1459dad509,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+e02_2.bmp_75c18656e1070488b65f4ef3c5459c6a,189185f56325a8844fad725f83aeeb86f556efdd,f662786a0fb8856185f70230aec4780bdbfd4e8e,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+e02_3.bmp_9f9413fdf4806383d89d42846a722a3f,866fdd8fdd5c2d544245ec949e4aea90c66338cc,f9700279f910fd963cbe4ff5756b8d8453592470,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+e02_4.bmp_e98df2b1939851f47c8a6c28ea1d4cda,9756c3ef3f0c2473cb005f6c3d52776e4cf0ec13,26f331888fa4fb4d154edfa5d09fb0866b87f80d,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+e04_1.bmp,976adf7982c63665690ca87a6a25cd8a33928470,57f62dad85d44bdc0ba6e502298c39aa8441eab9,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+e04_2.bmp_04dda450a93965ec055c9b3e101e099b,c174424bd9dc9a34b4de012e8560bf96cd2cbb01,771f6b5f4fab89f574e45a7ee61b7e4a6f918774,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+e04_3.bmp_6e40581365c7129ba9808c175223db1c,24508e433e2cf881d339cc51bea41d62269d2975,51378988ee3d53cbad167086ee3e571db8538896,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+e04_4.bmp_8c6cd8cff37073ad12c3337cfc6743c9,1960c5da9c1b74a201315dbfabfd80fbbef1310f,a34b8081d394ce7e59ca7a667913acf9c8f48b99,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+h_bottle_ovl_alp.bmp,54a14b6f819d2d546ffdb48fc60541f0384225d2,146ded698e9161eb45342f8b2dc40c1f85ae6f43,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,4,false
+j04_1.bmp,b72ab1448c745550c50cf9a18e201406150ea6be,ec6dd502413fbc06e2bc1139b5a6b8575e086b48,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j04_2.bmp,c98860aeb94b24e001e36d891a98a6dacff11a6c,5bb0d05aba025e9239b4745810acbe63b5fb8a91,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j04_3.bmp,3c9d66ce7ea23bdd33d7248e07d18d254d204e9d,4d860765e7ac26af20fee94f54058286f77e96ec,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j04_4.bmp,bf3ffe188a3a00f1d8047877d35cab7a404d2437,2ae77aa3ae49b2af4809d002d21b398ccd7c7c04,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j06_1.bmp,2e23cff9cbe3279a1a978ce633e8980f28190929,cfd71ebdbf3ccfa87ba9a10d22102d4e9381e74a,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j06_2.bmp,852bcbcf1003675e1d5c4ad967073c0eb1d65155,e7b27ae3ed582f40a53147604ec21690a4ffe75f,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j06_3.bmp,0879b4e1db97b4a4c9ad318e12e01f7f437466e1,1899e142c4b1664015d04dc16944b944a052ce88,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j06_4.bmp,3cd6b8e340a4aa8484634c82a342a6cdcf398f83,25000e5d1e31b61c5dfdf881064620187b0efb9d,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j07_1.bmp,1f98e7146465283944906835e08d589793adbf5e,7e7b1440a3ebaace3fc06f7be91fc5d117a56b7d,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j07_2.bmp,897403fe69a8e149a262eb5a9b1f359e971c1ce8,6e997d366235590e7576ba840279f543d99ef0f4,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j07_3.bmp,7435b8f82c52eed83b96b939d648ce09818c0dcc,56d563c462e23c700108c8fa7df1600884907fec,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j07_4.bmp,63f7f8a0cd73c2239ae87c2c2cdf0bd659fc3653,b3541b7eb22eb355d65bfe219fb321974884a5d4,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j09_1.bmp,3c5c848ae055d2a7a433b591783be806f7fc539b,d86161fdd1361ad22f50fcf81ec7786c6f8542d2,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j09_2.bmp,8a9dfb980a488c20fbaba80ec5d76c0ef7b30a04,331f91bf74374f188afeb9957a461be18bd6e07f,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j09_3.bmp,4757d6b7302ebcf378b9db27fb0c161162c37e17,1f8e4ee971b195e8fd634e8b717e4e1b5ddd48af,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j09_4.bmp,be48b6da7624bd011f94b61cc314d1a13dbab626,e7a9cd6a82fa65dfd2d6ff8be8216fabbd5b1865,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+j10_1.bmp,9da4a802ccd31c402cbc20d84fcef6498ffec644,c4cbfaf123c38521af103a4755be7f14cd8653c3,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+j10_2.bmp,b4bbf4c6e340212004b0e1fd7f099fc826866f50,0acf9ca78ee24a328c3576ed27235ed4df3a6c48,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+j10_3.bmp,24150af6624480ac2dbd9f066ea97d4cd204772c,2909c2fe9c5eaba3ade1b94989832f5d4f0a7ae2,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+j10_4.bmp,d19a751ba10bb1a16f8a7a30c1f6fd9e0568dc94,5a0a8c5609a346a1f45d8123cff9e82e6f6e95c8,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,false,4,true
+s112a_cell_floor_01_alp_ovl.bmp,5c09fbb4666ec302a73e827539ebeac11ec3aaee,c8d4a6c215652ee412b60fe892bbc41377c951c7,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,4,false
+s122a_fence_alp_ovl_01.bmp,52a528a4e9771502d0b3a2f14951dbbbeb6e0e99,2bec92c22cf08056833542eecced7cee4003b91d,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,4,true
+s171a_mo_fence_alp_ovl_rep_01.bmp,8bc70f0933355a78a60d68241da9c22f57aa38d9,384f9dc77390a11f2670bf439c3d25367a23d0fa,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,4,false
+s171a_mogi_fence_alp_ovl_rep_01.bmp,33ea2b0d64b9c8f051237db5efc44bf38d0d9e7a,454bf84f13e8e4d59a3ef981a23c327839fa3484,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,false,4,false
+sga_cigar01_brake.bmp,cf2138bc00844ee5563ff03b78cea2c6f349e373,96ab8eca779dffcca8f8b03dd3c9177e6e3a6777,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sga_cigar_origin.bmp,3b2e8eab4c27d80d733636f0cddd524f5a07b21c,38ad7c24f113b613fa0cc3ae0f43cfce1615754f,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_face_cell_hi.bmp,50b81d4e7d9c9cc2317a292843c949e3b5937f67,d369bc9a3f822674b7bd471df21de42b4e76b1dc,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_face_dam_eye_ovl_alp.bmp,45c243774ee6203735eebd3649cc9d67a100ef1f,e01c0c37ee021c929cc8adf38972128726c6b927,true,ps2 textures\HAS ALPHA,false,false,0,none,false,4,true
+sna_face_ed_def.bmp,588cc45e1e856ec7e1648c6ef25aec28faa96ca2,c7336cf518e383aa9326f3c3fd4c7f0bcd11e0f4,true,ps2 textures\OPAQUE,true,false,0,none,false,4,true
+sna_face_vr_sta_ovl_alp.bmp,79c085e141fd25753e99ce80364df0dc434c286e,580b99d74c0551a333adebefa63228c44e4d98f2,true,ps2 textures\HAS ALPHA,false,false,0,none,false,4,true
+sna_flirt_tiger.bmp,0ffc21c9c48736e0cc080f1d693c6225fa4ef72d,23e6ab7d2676dbd4d969df9f240f5ce1ab32613e,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_foot_naked_flirt.bmp,5006474baef90898cfd2ebc0b777d0c24e06df5b,a703fd6f198d4b12cc68b1a9de363fe00df894c6,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_foot_naked_tor.bmp,be19cc1085727e506221a38db3444ae298f1cc4b,f52ea3831ba657b9df67dbf002c8235cd00df531,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_foot_naked_tor.bmp_73f755c5eb2ba5efb9fbd155062db075,907381568422545eba7d7e17406fd02f0bc4a9e9,df3c8748ffea195745cd52f4c7abd2814e6236f0,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_hair_back_ovl_alp.bmp,f5f045fd35593c0ecdc71dcdcc12ef2968a0292c,99ec9b4fbef5e03689452580e1da4bbade547e3b,true,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Shared,false,false,0,none,false,4,true
+sna_suit_tears.bmp,c53172fad4a3a642e20323950b2550ca610e7518,bef6778f4248cc891efccf60827c4f63fe7d0761,true,ps2 textures\OPAQUE\same sha1,true,false,0,none,false,4,false
+sna_suit_tears_sub_ovl_alp.bmp,5f06c60d4697105ce00b34ac334d00b299af2000,cfa3ad1c765602f7b0a976ecb6f116c6ce8292be,false,ps2 textures\HAS ALPHA\same sha1\no_mip_fixes,false,false,0,none,true,4,false
+sna_tears_ovl_alp.bmp,29c50f8b484d3cb8dbd68874e06b6977b2322464,1aa5ccb15feda1b78c19910dbe3472c68fd545fa,true,ps2 textures\HAS ALPHA\same sha1,false,false,0,none,false,4,false

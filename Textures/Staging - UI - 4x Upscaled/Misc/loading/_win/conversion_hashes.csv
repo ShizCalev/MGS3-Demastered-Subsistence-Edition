@@ -1,9 +1,9 @@
-filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted,non_upscaled_version
-loading,89481012f2e36f88d9b2fca366e2c6383a104c8c,cb7d2cd8c50dd9717183723a8645b8470696c1e9,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_4k,b6cbbe0963f0769f54da8f5a513d9bbd59fe2524,4d6d42766d5e02d4f514ea404156b1f23b0eafab,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_fhd,3ac12804cd7b1f66db220f5b33f6c9be3916f5b2,9509db1926251a13ec9fb16a685ce958d9fbb184,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_jp,89481012f2e36f88d9b2fca366e2c6383a104c8c,cb7d2cd8c50dd9717183723a8645b8470696c1e9,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_jp_4k,b6cbbe0963f0769f54da8f5a513d9bbd59fe2524,4d6d42766d5e02d4f514ea404156b1f23b0eafab,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_jp_fhd,3ac12804cd7b1f66db220f5b33f6c9be3916f5b2,9509db1926251a13ec9fb16a685ce958d9fbb184,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_jp_wqhd,a2ee706837eea14306f65ffb118a7267f97933f6,80b578cf394be5b1a1bef7f8f899c42921420af6,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
-loading_wqhd,a2ee706837eea14306f65ffb118a7267f97933f6,80b578cf394be5b1a1bef7f8f899c42921420af6,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,2
+filename,before_hash,ctxr_hash,mipmaps,origin_folder,opacity_stripped,upscaled,upscaler_version,upscaler_type,ctxr3_converted,non_upscaled_version,npot_resized
+loading,89481012f2e36f88d9b2fca366e2c6383a104c8c,cb7d2cd8c50dd9717183723a8645b8470696c1e9,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_4k,b6cbbe0963f0769f54da8f5a513d9bbd59fe2524,4d6d42766d5e02d4f514ea404156b1f23b0eafab,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_fhd,3ac12804cd7b1f66db220f5b33f6c9be3916f5b2,9509db1926251a13ec9fb16a685ce958d9fbb184,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_jp,89481012f2e36f88d9b2fca366e2c6383a104c8c,cb7d2cd8c50dd9717183723a8645b8470696c1e9,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_jp_4k,b6cbbe0963f0769f54da8f5a513d9bbd59fe2524,4d6d42766d5e02d4f514ea404156b1f23b0eafab,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_jp_fhd,3ac12804cd7b1f66db220f5b33f6c9be3916f5b2,9509db1926251a13ec9fb16a685ce958d9fbb184,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_jp_wqhd,a2ee706837eea14306f65ffb118a7267f97933f6,80b578cf394be5b1a1bef7f8f899c42921420af6,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
+loading_wqhd,a2ee706837eea14306f65ffb118a7267f97933f6,80b578cf394be5b1a1bef7f8f899c42921420af6,false,Self Remade\Finalized\Not Demaster Fixed\Demaster Fixed\Subsistence\Misc,false,false,0,none,true,4,false
