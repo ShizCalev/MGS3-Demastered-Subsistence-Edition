@@ -28,9 +28,6 @@ Optional AI Upscaled versions are also available, in some cases the results actu
 
 PS2 UI elements, and actual in-world textures are seperated into different downloads for people who want to selectively demaster their game elements. ♥
 
-
-* UI Textures are not 100% demastered. Weapons / Equipment icons are not yet dumped - tooling needs to be created specifically for those icons as they are a unique format that PCSX2 cannot dump directly.
-
 <br>
 
 ------------
