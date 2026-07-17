@@ -51,17 +51,17 @@ namespace
 
 
 
-    constexpr const char* MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1 = "aea7b7311342eab1f4c78c43f393c0f03ef83b55";
-    constexpr const char* MGS3_Demaster_2x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1 = "2003659d9b9ac548a9c23ead82c8c944f1b0f1bd";
-    constexpr const char* MGS3_Demaster_4x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1 = "b00e97af4b2cb7268480b8d59521a29b08dd081c";
+    constexpr const char* MGS3_Demaster_Base_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1 = "132c245ac59d348e04ab2991f9429ae0a3f2b86c";
+    constexpr const char* MGS3_Demaster_2x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1 = "982d4389d4e5490065ea51797d3891bd1ee9a002";
+    constexpr const char* MGS3_Demaster_4x_OVR_STM_WIN_sok_coat_lupe_himo_CTXR_SHA1 = "8a882a1fb7be0ac0e861efe332f44d125bfb5119";
     
     constexpr const char* MGS3_Demaster_Base_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "cfa3ad1c765602f7b0a976ecb6f116c6ce8292be";
-    constexpr const char* MGS3_Demaster_2x_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "bf611074f135f0c3fd3baa8f81fe2cd241791fe0";
-    constexpr const char* MGS3_Demaster_4x_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "c4c87a8bbe92d3a6c766b4f600d036f955975991";
+    constexpr const char* MGS3_Demaster_2x_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "d95a24128c95c66f5b202ab9083661e75af33927";
+    constexpr const char* MGS3_Demaster_4x_OVR_STM_OVR_US_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "7e28dbbc1d2ffd433cf65abfd5810215bd27a58f";
 
     constexpr const char* MGS3_Demaster_Base_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "cfa3ad1c765602f7b0a976ecb6f116c6ce8292be";
-    constexpr const char* MGS3_Demaster_2x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "bf611074f135f0c3fd3baa8f81fe2cd241791fe0";
-    constexpr const char* MGS3_Demaster_4x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "c4c87a8bbe92d3a6c766b4f600d036f955975991";
+    constexpr const char* MGS3_Demaster_2x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "d95a24128c95c66f5b202ab9083661e75af33927";
+    constexpr const char* MGS3_Demaster_4x_OVR_STM_OVR_JP_sna_suit_tears_sub_ovl_alp_CTXR_SHA1 = "7e28dbbc1d2ffd433cf65abfd5810215bd27a58f";
 
 
 
