@@ -38,8 +38,8 @@ VORTEX_MODS_DIR = Path(r"C:\Vortex\metalgearsolid3mc\mods")
 LOCAL_SYNC_PREFIXES: dict[str, str] = {
     "dist": "MGS3 PS2 Demaster (Sub) - Base - PS2 Resolution",
     #"dist_2x": "MGS3 PS2 Demaster (Sub) - Base - 2x AI Upscaled",
-    "dist_4x": "MGS3 PS2 Demaster (Sub) - Base - 4x AI Upscaled",
-    "dist_ui": "12_9e_05_129e0573-5ab0-421b-b29e-8cc9e87c3351",
+    #"dist_4x": "MGS3 PS2 Demaster (Sub) - Base - 4x AI Upscaled",
+    "dist_ui": "MGS3 PS2 Demaster (Sub) - UI Only - PS2 Resolution",
     #"dist_4x_ui": "MGS3 PS2 Demaster (Sub) - UI Only - 2x AI Upscaled"
     #"dist_4x_ui": "MGS3 PS2 Demaster (Sub) - UI Only - 4x AI Upscaled"
 }

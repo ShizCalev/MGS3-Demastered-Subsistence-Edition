@@ -1,0 +1,14 @@
+# Demastered run: missing PS2 source by stem
+# These Self Remade textures had no matching file under PS2_TEXTURES_ROOT.
+# They were skipped and not processed in this run.
+
+0039098b.png
+003a098b.png
+003b098b.png
+003c098b.png
+003d098b.png
+003e098b.png
+003f098b.png
+0040098b.png
+0041098b.png
+0058098b.png

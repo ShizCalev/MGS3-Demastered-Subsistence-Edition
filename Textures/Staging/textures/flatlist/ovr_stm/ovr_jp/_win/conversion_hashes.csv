@@ -28,6 +28,7 @@ j10_1.bmp,9da4a802ccd31c402cbc20d84fcef6498ffec644,29618d0dc2413a7db031416e30fc9
 j10_2.bmp,b4bbf4c6e340212004b0e1fd7f099fc826866f50,9b852f7a01f11684a0b933e5a1b47547cbe8e69b,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,5,false,false
 j10_3.bmp,24150af6624480ac2dbd9f066ea97d4cd204772c,cfb6506af443691874ec3552daffc694c8e20c41,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,5,false,false
 j10_4.bmp,d19a751ba10bb1a16f8a7a30c1f6fd9e0568dc94,b4873c37aabd123c73cd4550dc1b6a8528093038,true,ps2 textures\OPAQUE\bp_remade,true,false,0,none,5,false,false
+k08_1.bmp,d1b9554991a6e85368efcc4271c94be11958e271,f6675b0cbeddf794f1d1c79d4f9b76e02f70bb75,true,ps2 textures\OPAQUE,true,false,0,none,5,false,false
 s112a_cell_floor_01_alp_ovl.bmp,5c09fbb4666ec302a73e827539ebeac11ec3aaee,cc9f5f390a4b6bfaa477ec5a0d76c816fd6de4bf,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,5,false,false
 s122a_fence_alp_ovl_01.bmp,52a528a4e9771502d0b3a2f14951dbbbeb6e0e99,31357a805fc51373717316d317ea08ad4ecd17f1,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,5,false,false
 s171a_mo_fence_alp_ovl_rep_01.bmp,8bc70f0933355a78a60d68241da9c22f57aa38d9,7751f5d0c53e4b2fbc9f81ecc071c27df4e833a3,true,ps2 textures\HAS ALPHA\bp_remade,false,false,0,none,5,false,false
